@@ -2,44 +2,36 @@ body{
     margin: 0;
 }
 
-    .myForm{
-        /* height: auto;
-        width: auto;
-        flex-direction: column;
-        display: flex; */
-        /* margin: 50px 50px 50px 50px; */
-        /* padding: 50px 50px 50px 50px; */
-        /* background: seashell;
-        align-self: center;
-        justify-content: center; */
-
-    }
-
     .myForm div{
         /* background: rgb(226, 226, 41); */
+        margin: 50px;
     }
 
     .myForm input{
         margin: 7px;
-        border-radius: 3px;
-        border: solid;
+        border-radius: 6px;
         border-color: #D1CCCC;
         background-color: transparent;
-        text-indent: 0.5rem;
-        /* width: 100%;
-        height: 20px; */
-
+        width: 100%;
+        height: 57px;
+        padding: 12px 15px;
+        /* display: inline-block; */
+        border: 2px solid #D1CCCC;
+        box-sizing: border-box;
     }
 
     .myForm textarea{
-        background-color: transparent;
-        border: solid;
-        border-color: #D1CCCC;
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        border: 2px solid #D1CCCC;
+        box-sizing: border-box;
+        resize: none;
+        padding: 12px 15px;
         margin: 7px;
-        border-radius: 3px;
-        /* max-width: 90%;
-        min-width: 90%; */
-        text-indent: 0.5rem;
+        border-radius: 6px;
+        border-color: #D1CCCC;
+        background-color: transparent;
     }
 
     .myForm ::placeholder{
@@ -50,9 +42,16 @@ body{
         color: #D1CCCC;
     }
 
-button{
+    button{
         float: right;
-        height: 30px;
-        width: 100px;
+        height: 80px;
+        width: 200px;
         padding: 0px;
+        border: none;
+        border-radius: 8px;
+        background-color: #F39B6B;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
     }
