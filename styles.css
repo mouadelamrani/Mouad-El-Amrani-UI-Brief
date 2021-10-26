@@ -1,0 +1,261 @@
+/* Start General Styling */
+
+    *{
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        background: rgb(199, 124, 124);
+    }
+
+    .MainSec{
+        /* height: auto; */
+        /* width: auto; */
+        /* margin: auto;
+        display: inline-block; */
+        /* flex-flow: row wrap; */
+        /* align-items: center;
+        justify-content: center;
+        align-self: center;
+        text-align: center; */
+        /* align-content: center;
+        display: flex;
+        padding: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        max-height: 100%; */
+ 
+        
+    }
+    .myForm div{
+        /* background: rgb(226, 226, 41); */
+        margin: 50px;
+        height: auto;
+        width: auto;
+    }
+
+    .Divtest{
+        align-content: center;
+        display: flex;
+        padding: 20px;
+        flex-direction: row;
+        max-width: 100%;
+        max-height: 100%;
+        flex-wrap: wrap;
+      }
+  
+
+  
+      .myFormParent{
+        margin: auto;
+        width: 50%;
+      }
+  
+      .links{
+        margin: auto;
+      }
+  
+      ul {
+        padding: 0px;
+        list-style: none;
+        align-content: center;
+        text-align: center;
+  
+      }
+  
+
+
+/* End General Styling */
+
+
+/* ========================= */
+
+
+/* Header Beginning */
+    header{
+        display: flexbox;
+        flex-direction: column;
+        background: #F38E58;
+        height: 420px;
+    }
+
+    .MainP{
+        justify-content: center;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    h1{
+        text-align: center;   
+        vertical-align: text-bottom; 
+        font-size: 66px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    p{
+        text-align: center;   
+        vertical-align: text-bottom; 
+        font-size: 16.5px;
+        margin: 0px;
+        padding: 0px;
+    }
+    /* Header End */
+
+
+
+    /* NavBar Beginning */
+    .NavBar{
+        background: #f5a57a;
+        align-items: center;
+        align-self: center;
+        padding: 50px 100px;
+        display: flex;
+        height: 100px;
+        justify-content: space-between;
+    }
+
+    .NavBar ul{
+        justify-content: center;
+        align-self: center;
+        align-content: center;
+        align-items: center;
+        list-style: none;
+        display: flex;
+        font-size: 15px;
+    }
+
+    .NavBar #logo {
+        width: 150px;
+        height: 50px;
+        margin: auto 70px auto auto;
+    }
+
+    .NavBar  li{
+        padding: 0px 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    /* This is used to remove the underlying effect that comes with links */
+    .NavBar a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .NavBar #buttons{
+        display: inline;
+        flex-direction: row-reverse;
+    }
+
+    .NavBar #FreeTrailButton{
+        height: 45px;
+        width: 175px;
+        margin: 0px 5px 0px 5px;
+        background: white;
+        border-radius: 6px;
+        border-color: transparent;
+        border: none;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: black;
+
+
+    }
+
+    .NavBar #LogInButton{
+        height: 45px;
+        width: 105px;
+        margin: 0px 5px 0px 5px;
+        background: transparent;
+        border: solid;
+        border-radius: 6px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+    }
+/* NavBar End */
+
+
+/* ========================= */ 
+
+ 
+/* START FORM STYLING*/
+
+    /* .myForm div{ */
+        /* background: rgb(226, 226, 41); */
+        /* margin: 50px;
+        height: auto;
+        width: auto;
+    } */
+
+    .myForm input{
+        margin: 7px;
+        border-radius: 6px;
+        border-color: #D1CCCC;
+        background-color: transparent;
+        width: 100%;
+        height: 57px;
+        padding: 12px 15px;
+        /* display: inline-block; */
+        border: 2px solid #D1CCCC;
+        box-sizing: border-box;
+    }
+
+    .myForm textarea{
+        display: inline-block;
+        width: 100%;
+        height: 200px;
+        border: 2px solid #D1CCCC;
+        box-sizing: border-box;
+        resize: none;
+        padding: 12px 15px;
+        margin: 7px;
+        border-radius: 6px;
+        border-color: #D1CCCC;
+        background-color: transparent;
+    }
+
+    .myForm ::placeholder{
+        font-size: 0.75rem;
+        font-weight: lighter;
+        font-family: sans-serif;
+        font-style: italic;
+        color: #D1CCCC;
+    }
+
+    button{
+        float: right;
+        height: 80px;
+        width: 200px;
+        padding: 0px;
+        border: none;
+        border-radius: 8px;
+        background-color: #F39B6B;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+    }
+
+/* END FORM STYLING */
+
+
+/* ========================= */
+
+/* Start Footer */
+
+    footer{
+        height: 100px;
+        background: #58e1f3;
+    }
+
+/* End Footer */
