@@ -29,18 +29,7 @@
         max-height: 100%; */
     /* } */
     
-      .links{
-        margin: auto;
-      }
-  
-      ul {
-        padding: 0px;
-        list-style: none;
-        align-content: center;
-        text-align: center;
-  
-      }
-/* End General Styling */
+    /* End General Styling */
 
 
 /* ================================================== */
@@ -54,32 +43,33 @@
         height: 420px;
     }
 
-    .MainP{
-        justify-content: center;
+    .HeaderParagraph{
+        /* justify-content: center;
         align-self: center;
         align-content: center;
-        align-items: center;
+        align-items: center; */
+        text-align: center;
         display: flex;
         flex-direction: column;
         height: auto;
         margin: 150px 0px 0px 0px;
     }
 
-    h1{
+    /* .HeaderParagraph h1{
         text-align: center;   
         vertical-align: text-bottom; 
         font-size: 66px;
         margin: 0px;
         padding: 0px;
-    }
+    } */
 
-    p{
+    /* .HeaderParagraph p{
         text-align: center;   
         vertical-align: text-bottom; 
         font-size: 16.5px;
         margin: 0px;
         padding: 0px;
-    }
+    } */
 /* Header End */
 
 
@@ -270,6 +260,30 @@
 /* END FORM STYLING */
 
 
+/* Social Media Info */
+.SocialMediaInfo{
+    width: 50%;
+    background: #58f37a;
+}
+
+table{
+    width:100%;
+}
+
+td{ 
+    background-color: #eee;
+    padding: 30px;
+}
+
+.tdIcon{
+    border-radius: 50%;
+}
+
+.tdText{
+    font-size: 16.5;
+    line-height: 2;
+}
+
 /* ========================= */
 
 /* Start Footer */
@@ -280,3 +294,4 @@
     }
 
 /* End Footer */
+
