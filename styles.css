@@ -10,7 +10,7 @@
         background: rgb(199, 124, 124);
     }
 
-    .MainSec{
+    /* .MainSec{ */
         /* height: auto; */
         /* width: auto; */
         /* margin: auto;
@@ -27,33 +27,8 @@
         flex-wrap: wrap;
         max-width: 100%;
         max-height: 100%; */
- 
-        
-    }
-    .myForm div{
-        /* background: rgb(226, 226, 41); */
-        margin: 50px;
-        height: auto;
-        width: auto;
-    }
-
-    .Divtest{
-        align-content: center;
-        display: flex;
-        padding: 20px;
-        flex-direction: row;
-        max-width: 100%;
-        max-height: 100%;
-        flex-wrap: wrap;
-      }
-  
-
-  
-      .myFormParent{
-        margin: auto;
-        width: 50%;
-      }
-  
+    /* } */
+    
       .links{
         margin: auto;
       }
@@ -65,13 +40,10 @@
         text-align: center;
   
       }
-  
-
-
 /* End General Styling */
 
 
-/* ========================= */
+/* ================================================== */
 
 
 /* Header Beginning */
@@ -89,7 +61,8 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        height: 100%;
+        height: auto;
+        margin: 150px 0px 0px 0px;
     }
 
     h1{
@@ -107,11 +80,11 @@
         margin: 0px;
         padding: 0px;
     }
-    /* Header End */
+/* Header End */
 
 
 
-    /* NavBar Beginning */
+/* NavBar Beginning */
     .NavBar{
         background: #f5a57a;
         align-items: center;
@@ -167,8 +140,6 @@
         font-weight: 700;
         font-size: 14px;
         color: black;
-
-
     }
 
     .NavBar #LogInButton{
@@ -197,8 +168,58 @@
         width: auto;
     } */
 
+    .myForm div{
+        /* background: rgb(226, 226, 41); */
+        margin: 50px;
+        height: auto;
+        width: auto;
+    }
+
+    .FormBlock{
+        align-content: center;
+        display: flex;
+        display: inline-flex;
+        padding: 20px;
+        flex-direction: row;
+        max-width: 100%;
+        max-height: 100%;
+        flex-wrap: wrap;
+    }
+  
+    .myFormParent{
+        align-content: center;
+        margin: 0;
+        width: 50%;
+        background: beige;
+        padding: 20px;
+    }
+
+
+    .FormElementsContainer h1{
+        font-size: 30px;
+        color: #58e1f3;
+        text-align: left;
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .FormElementsContainer p{
+        line-height: 2;
+        font-size: 18px;
+        text-align: left;
+        height: auto;
+        width: auto;
+        padding: 0px 0px 56px 0px;
+    }
+
+    .myForm{
+        display: flex;
+        align-content: center;
+    }
+
     .myForm input{
-        margin: 7px;
+        margin: 7px 0px;
         border-radius: 6px;
         border-color: #D1CCCC;
         background-color: transparent;
@@ -214,11 +235,11 @@
         display: inline-block;
         width: 100%;
         height: 200px;
+        margin: 7px 0px;
+        padding: 12px 15px;
         border: 2px solid #D1CCCC;
         box-sizing: border-box;
         resize: none;
-        padding: 12px 15px;
-        margin: 7px;
         border-radius: 6px;
         border-color: #D1CCCC;
         background-color: transparent;
@@ -234,15 +255,15 @@
 
     button{
         float: right;
-        height: 80px;
-        width: 200px;
+        height: 60px;
+        width: 150px;
         padding: 0px;
         border: none;
         border-radius: 8px;
         background-color: #F39B6B;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 13px;
         color: white;
     }
 
