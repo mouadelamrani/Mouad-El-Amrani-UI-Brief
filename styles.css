@@ -264,39 +264,52 @@
 .SocialMediaInfo{
     width: 50%;
     background: #4679bb;
-    padding: 0px 50px;
+    padding: 50px;
 }
 
 .SocialMediaInfo #SocialMediah1{
-    padding: 70px 0px 0px 0px;
+    /* padding: 70px 0px 0px 0px; */
     margin: 0px;
     font-size: 30px;
     color: #58e1f3;
 }
 
 .SocialMediaInfo #SocialMediaP{
-    padding: 27px 0px 55px 0px;
+    /* padding: 16px 0px 33px 0px; */
     margin: 0;
     line-height: 2;
     font-size: 18px;
+    /* display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
     /* text-align: left; */
     /* height: auto;
     width: auto; */
 }
 
+/* 
+I should edit the paragraph within the div separetly
+*/
 .OrangeText{
     color: #F38E58;
+    margin: 0px;
 }
 
 .SocialMediaIcon-Text{
+    margin: 0px;
     display: flex;
     flex-flow: row nowrap;
     background: chartreuse;
-    padding: 20px 0px;
+    align-items: center;
+    /* padding: 20px 0px; */
 }
 
 .SocialMediaIcon-Text img{
-    padding-right: 10px;
+    /* padding-right: 10px; */
+    height: 100px;
+    width: 100px;
 }   
 
 /* ========================= */
