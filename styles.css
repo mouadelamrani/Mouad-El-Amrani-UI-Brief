@@ -64,6 +64,7 @@
         font-size: 66px;
         margin: 0px;
         padding: 0px;
+        color: white;
     }
 
     .HeaderParagraph p{
@@ -72,7 +73,7 @@
         font-size: 16.5px;
         margin: 0px;
         padding: 0px;
-        color: white;
+        color: rgb(44, 44, 44);
     }
 /* Header End */
 
