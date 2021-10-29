@@ -7,7 +7,7 @@
     body{
         font-family: 'Poppins', sans-serif;
         margin: 0;
-        background: rgb(199, 124, 124);
+        /* background: rgb(199, 124, 124); */
     }
 
     /* .MainSec{ */
@@ -37,10 +37,12 @@
 
 /* Header Beginning */
     header{
-        display: flexbox;
+        display: flex;
         flex-direction: column;
         background: #F38E58;
         height: 420px;
+        justify-content: flex-end;
+
     }
 
     .HeaderParagraph{
@@ -51,32 +53,37 @@
         text-align: center;
         display: flex;
         flex-direction: column;
-        height: auto;
-        margin: 150px 0px 0px 0px;
+        padding-bottom: 40px;
+        /* height: auto; */
+        /* margin: 150px 0px 0px 0px; */
     }
 
-    /* .HeaderParagraph h1{
-        text-align: center;   
-        vertical-align: text-bottom; 
+    .HeaderParagraph h1{
+        /* text-align: center;   
+        vertical-align: text-bottom;  */
         font-size: 66px;
         margin: 0px;
         padding: 0px;
-    } */
+    }
 
-    /* .HeaderParagraph p{
-        text-align: center;   
-        vertical-align: text-bottom; 
+    .HeaderParagraph p{
+        /* text-align: center;   
+        vertical-align: text-bottom;  */
         font-size: 16.5px;
         margin: 0px;
         padding: 0px;
-    } */
+        color: white;
+    }
 /* Header End */
 
 
 
 /* NavBar Beginning */
     .NavBar{
-        background: #f5a57a;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: #F38E58;
         align-items: center;
         align-self: center;
         padding: 50px 100px;
@@ -104,18 +111,19 @@
     .NavBar  li{
         padding: 0px 20px;
         font-family: 'Poppins', sans-serif;
-        font-weight: 600;
+        font-weight: 400;
     }
 
     /* This is used to remove the underlying effect that comes with links */
     .NavBar a{
-        color: black;
+        color: rgb(255, 255, 255);
         text-decoration: none;
     }
 
     .NavBar #buttons{
         display: inline;
         flex-direction: row-reverse;
+        cursor: pointer;
     }
 
     .NavBar #FreeTrailButton{
@@ -180,7 +188,7 @@
         align-content: center;
         margin: 0;
         width: 50%;
-        background: beige;
+        /* background: beige; */
         padding: 20px;
     }
 
@@ -255,6 +263,7 @@
         font-weight: bold;
         font-size: 13px;
         color: white;
+        cursor: pointer;
     }
 
 /* END FORM STYLING */
@@ -263,8 +272,12 @@
 /* Social Media Info */
 .SocialMediaInfo{
     width: 50%;
-    background: #4679bb;
+    /* background: #4679bb; */
     padding: 20px;
+}
+.SocialMediaInfo a{
+    color: white;
+    text-decoration: none;
 }
 
 .SocialMediaInfo #SocialMediah1{
@@ -288,7 +301,7 @@
     margin: 0px;
     display: flex;
     flex-flow: row nowrap;
-    background: chartreuse;
+    /* background: chartreuse; */
     align-items: center;
     /* padding: 20px 0px; */
 }
@@ -314,23 +327,33 @@
 /* Start Footer */
 
     footer{
-        background: #f358cc;
+        background: #404040;
     }
     footer a{
-        
+        color: white;
+        text-decoration: none;
     }
+
     nav{
-        background: cyan;
+        /* background: cyan; */
         display: flex;
         flex-direction: row;
         width: auto;
+        /* height: 400px; */
         justify-content: space-between;
         /* align-content: flex-start; */
-        padding: 0px 100px;
+        padding: 30px 100px;
     }
 
-    nav p, h3{
+    nav p{
+        text-indent: 5px;
         font-size: 15px;
+        color: #A8A8A8;
+    }
+    nav h3{
+        font-weight: 500;
+        font-size: 16px;
+        color: white;
     }
 
     /* This applies to all the elements in the Footer */
@@ -340,7 +363,7 @@
     .Footer_Landing_Pages, 
     .Footer_Commercial, 
     .Footer_Try_Lander{
-        background: rgb(37, 121, 121);
+        /* background: rgb(37, 121, 121); */
         padding: 0px 30px ;
     }
     
@@ -360,7 +383,7 @@
     }
 
     .Footer_Landing_Pages{
-        width: 250px;
+        width: 270px;
         height: auto;
     }
 
@@ -370,20 +393,28 @@
     }
     .FooterIcons{
         display: flex;
-        background: cyan;
+        /* background: cyan; */
         justify-content: space-between;
+    }
+    .FooterIcons a{
+        color: #F49B6C;
     }
 
     .Footer_Try_Lander{
         /* padding: 30px; */
-        background: rgb(255, 0, 0);
+        /* background: rgb(255, 0, 0); */
         width: 280px;
     }
     .FooterButton{
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
         /* float: right; */
-        height: 60px;
+        height: 80px;
         width: 100%;
-        padding: 0px;
+        padding: 10px 0px;
         border: none;
         border-radius: 8px;
         background-color: #032030;
@@ -391,6 +422,23 @@
         font-weight: bold;
         font-size: 13px;
         color: white;
+        line-height: 2;
+        cursor: pointer;
+    }
+
+    .Copyright{
+        display: flex;
+        align-items: center;
+        padding-left: 100px;
+        height: 50px;
+        background: #333333;
+        
+    }
+
+
+    .Copyright p{
+        color: white;
+        font-size: 14px;
     }
 
 
