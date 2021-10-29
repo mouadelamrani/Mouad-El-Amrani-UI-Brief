@@ -5,55 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/881071330d.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>footer</title>
     <style>
         nav{
+            background: cyan;
             display: flex;
             flex-direction: row;
-            width: 100%;
+            width: auto;
+            justify-content: space-between;
+            /* align-content: flex-start; */
+            padding: 0px 100px;
         }
 
-        .div1, .div2, .div3, .div4, .div5, .div6{
+        nav p, h3{
+            font-size: 15px;
+        }
+
+        /* This applies to all the elements in the Footer */
+        .Footer_About_Lander, 
+        .Footer_Help, 
+        .Footer_Resources, 
+        .Footer_Landing_Pages, 
+        .Footer_Commercial, 
+        .Footer_Try_Lander{
             background: rgb(37, 121, 121);
             padding: 30px;
-            width: auto;
+        }
+        
+        .Footer_About_Lander{
+            width: 200px;
+            height: auto;
+        }
+
+        .Footer_Help{
+            width: 135px;
             height: auto;
         }
         
-        /* .div2{
-            background: rgb(0, 255, 128);
-            padding: 30px;
-            width: auto;
-            height: auto;
-        }
-        
-        .div3{
-            background: rgb(0, 60, 255);
-            padding: 30px;
-            width: auto;
+        .Footer_Resources{
+            width: 135px;
             height: auto;
         }
 
-        .div4{
-            background: rgb(140, 0, 255);
-            padding: 30px;
-            width: auto;
+        .Footer_Landing_Pages{
+            width: 180px;
             height: auto;
         }
 
-        .div5{
-            padding: 30px;
-            background: rgb(136, 255, 0);
-            width: auto;
+        .Footer_Commercial{
+            width: 135px;
             height: auto;
         }
+        .FooterIcons{
+            display: flex;
+            background: cyan;
+            justify-content: space-between;
+        }
 
-        .div6{
-            padding: 30px;
+        .Footer_Try_Lander{
+            /* padding: 30px; */
             background: rgb(255, 0, 0);
-            width: fit-content;
-            height: fit-content;
-        } */
+            width: 200px;
+        }
+        .FooterButton{
+            /* float: right; */
+            height: 60px;
+            width: 100%;
+            padding: 0px;
+            border: none;
+            border-radius: 8px;
+            background-color: #032030;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 13px;
+            color: white;
+        }
 
     </style>
 </head>
@@ -61,7 +87,7 @@
     
     <footer>
         <nav>
-            <div class="div1" style="width: 240px;">
+            <div class="Footer_About_Lander">
                 <h3>About Lander</h3>
                 <p>Landing Pages</p>
                 <p>Landing Page Templates</p>
@@ -72,14 +98,14 @@
                 <p>Marketing Automation</p>
             </div>
             
-            <div class="div2">
+            <div class="Footer_Help">
                 <h3>Help</h3>
                 <p>Support</p>
                 <p>Help Center</p>
                 <p>Contact Us</p>
             </div>
             
-            <div class="div3">
+            <div class="Footer_Resources">
                 <h3>Resources</h3>
                 <p>Ebooks</p>
                 <p>Infographics</p>
@@ -88,9 +114,9 @@
                 <p>Podcasts</p>
             </div>
             
-            <div class="div4">
+            <div class="Footer_Landing_Pages">
                 <h3>Landing Pages</h3>
-                <p>what is a landing Pages?</p>
+                <p>What is a landing Pages?</p>
                 <p>PPC Ads</p>
                 <p>SEO Traffic</p>
                 <p>Mobile Landing Pages</p>
@@ -99,26 +125,25 @@
                 <p>Target Audience</p>
             </div>
             
-            <div class="div5">
+            <div class="Footer_Commercial">
                 <h3>Commercial</h3>
                 <p>Why Lander</p>
                 <p>Pricing</p>
-                <div>
-                    <p>Stay Tuned!</p>
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-linkedin-in"></i>
+                <h3>Stay Tuned!</h3>
+                <div class="FooterIcons">
+                    <i class="fab fa-facebook-f fa-2x"></i>
+                    <i class="fab fa-twitter fa-2x"></i>
+                    <i class="fab fa-instagram fa-2x"></i>
+                    <i class="fab fa-linkedin-in fa-2x"></i>
 
                 </div>
             </div>
             
-            <div class="div6">
-                <h3>Commercial</h3>
-                <p>Why Lander</p>
+            <div class="Footer_Try_Lander">
+                <h3>Try Lander for Free</h3>
                 <p>Try Lander for Free</p>
                 <p>Start a 14 Day Free Trial on Any of our pain plans. No credit card required.</p>
-                <button>CREATE YOUR LANDING PAGE</button>
+                <button class="FooterButton">CREATE YOUR<br>LANDING PAGE</button>
             </div>
             
             

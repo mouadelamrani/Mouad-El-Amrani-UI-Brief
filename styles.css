@@ -169,7 +169,7 @@
         align-content: center;
         display: flex;
         display: inline-flex;
-        padding: 20px;
+        padding: 100px;
         flex-direction: row;
         max-width: 100%;
         max-height: 100%;
@@ -181,7 +181,7 @@
         margin: 0;
         width: 50%;
         background: beige;
-        padding: 50px;
+        padding: 20px;
     }
 
 
@@ -264,7 +264,7 @@
 .SocialMediaInfo{
     width: 50%;
     background: #4679bb;
-    padding: 50px;
+    padding: 20px;
 }
 
 .SocialMediaInfo #SocialMediah1{
@@ -314,8 +314,85 @@
 /* Start Footer */
 
     footer{
-        background: #58e1f3;
+        background: #f358cc;
     }
+    footer a{
+        
+    }
+    nav{
+        background: cyan;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: space-between;
+        /* align-content: flex-start; */
+        padding: 0px 100px;
+    }
+
+    nav p, h3{
+        font-size: 15px;
+    }
+
+    /* This applies to all the elements in the Footer */
+    .Footer_About_Lander, 
+    .Footer_Help, 
+    .Footer_Resources, 
+    .Footer_Landing_Pages, 
+    .Footer_Commercial, 
+    .Footer_Try_Lander{
+        background: rgb(37, 121, 121);
+        padding: 0px 30px ;
+    }
+    
+    .Footer_About_Lander{
+        width: 280px;
+        height: auto;
+    }
+
+    .Footer_Help{
+        width: 180px;
+        height: auto;
+    }
+    
+    .Footer_Resources{
+        width: 180px;
+        height: auto;
+    }
+
+    .Footer_Landing_Pages{
+        width: 250px;
+        height: auto;
+    }
+
+    .Footer_Commercial{
+        width: 180px;
+        height: auto;
+    }
+    .FooterIcons{
+        display: flex;
+        background: cyan;
+        justify-content: space-between;
+    }
+
+    .Footer_Try_Lander{
+        /* padding: 30px; */
+        background: rgb(255, 0, 0);
+        width: 280px;
+    }
+    .FooterButton{
+        /* float: right; */
+        height: 60px;
+        width: 100%;
+        padding: 0px;
+        border: none;
+        border-radius: 8px;
+        background-color: #032030;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 13px;
+        color: white;
+    }
+
 
 /* End Footer */
 
